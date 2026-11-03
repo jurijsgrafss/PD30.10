@@ -12,7 +12,7 @@ skaits = 0
 with open("sistema.log", encoding="utf-8") as f:
     for rinda in f:
         dalas = rinda.split()
-        if dalas[3] == "WARNING":
+        if "WARNING" in dalas:
             skaits = skaits + 1
 
-print("WARNING rindas:", skaits)
+print("Atrasts:", skaits)
