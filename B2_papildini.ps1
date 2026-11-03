@@ -1,0 +1,17 @@
+# ----------------------------------------------------------------------
+# B2. PowerShell — diska vieta failā
+# ----------------------------------------------------------------------
+
+# Saglabā informāciju par brīvo vietu diskos CSV failā diski.csv, ko var atvērt Excel. Aizpildi vietu, kur stāv TODO.
+#
+# Aizpildi vietu, kur stāv TODO. Tad palaid.
+# ----------------------------------------------------------------------                                                                                                Pirms saglabāšanas izvadi Write-Host rindu "Sākam eksportu".
+
+Write-Host "Sākam eksportu"
+
+$diski = Get-PSDrive -PSProvider FileSystem |
+    Select-Object Name, Used, Free
+
+$diski | Export-Csv -Path "diski.csv" -NoTypeInformation -Encoding utf8
+
+# TODO: saglabā $diski failā diski.csv
