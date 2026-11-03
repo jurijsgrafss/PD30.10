@@ -7,8 +7,6 @@
 # Aizpildi vietu, kur stāv TODO. Tad palaid.
 # ----------------------------------------------------------------------                                                                                                Pirms saglabāšanas izvadi Write-Host rindu "Sākam eksportu".
 
-Write-Host "Sākam eksportu"
-
 $diski = Get-PSDrive -PSProvider FileSystem |
     Select-Object Name, Used, Free
 
