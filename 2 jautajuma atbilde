@@ -1,0 +1,8 @@
+J2. Objekti, nevis teksts (2 p.)
+PowerShell pa konveijeru nodod objektus, Bash nodod tekstu. Tev jāatlasa procesi, kas
+lieto vairāk par 200 MB atmiņas. Nosauc vienu praktisku ieguvumu, ko šajā uzdevumā
+dod objekti
+
+Objekti dod iespēju uzreiz piekļūt procesa informācijai piemēram tā nosaukumam un atmiņas daudzumam.
+tas atvieglo procesu jo var vienkārši salīdzināt atmiņas daudzumu ar 200 MB un atrast vajadzīgos procesus.
+Nav nepieciešams meklēt un sadalīt tekstu lai iegūtu vajadzīgo informāciju.
